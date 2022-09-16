@@ -1,0 +1,36 @@
+.layout {
+    width: 100%;
+    min-height: 100%;
+    background: rgb(8, 15, 135);
+}
+h1 {
+    color: #fff;
+}
+.col-4 {
+    margin-bottom: .5rem;
+}
+.card:hover {
+    position: absolute;
+    z-index: 1000;
+    width: 33%;
+}
+.nav-pagination {
+    margin-top: 1rem;
+}
+.input-field {
+    background: #fff;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+.page-link {
+    cursor: pointer;
+}
+@media screen and (min-width: 980px) {
+    .layout {
+        height: 100vh;
+    }
+    .container {
+        padding: 7%;
+    }
+  }
